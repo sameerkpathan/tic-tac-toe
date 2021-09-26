@@ -92,5 +92,5 @@ function show(){
     confetti.start();
     setTimeout(()=>{
         confetti.stop();
-    },3000);
+    },13000);
 }
