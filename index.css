@@ -1,0 +1,66 @@
+td{
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;    
+    background-color: gray;
+}
+table{
+    margin: 20px auto;
+    border-radius: 10px;
+   
+}
+
+
+/* hover effect */
+
+td:hover{
+    border-radius: 20px;
+    background-color: rgb(114, 81, 81);
+}
+/* coursor change */
+#div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 40px 5px 40px;
+}
+#newgame{
+
+    cursor: grab;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: rgb(241, 239, 234);
+    background-color: black;
+    padding: 3px;
+    
+}
+
+#changebg{
+    
+    cursor: grab;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: rgb(241, 239, 234);
+    background-color: black;
+    padding: 3px;
+    
+    
+}
+body{
+    background: radial-gradient(circle,rgb(221, 71, 128),rgb(238, 98, 18));
+
+    
+}
+
+.day{
+    background: radial-gradient(circle,red,pink);
+
+}
+
+.classic{
+    background: radial-gradient(circle,orange,pink)
+}
+
